@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Jostin Alexander Muñoz Torres</title>
+</head>
+<body>
+
+    <header>
+        <h1>Portafolio de Jostin Alexander Muñoz Torres</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Inicio</a></li>
+                <li><a href="sobre-mi.html" target="_blank">Sobre Mí</a></li>
+                <li><a href="habilidades.html" target="_blank">Habilidades</a></li>
+                <li><a href="galeria.html" target="_blank">Galería de Proyectos</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Jostin Alexander Muñoz Torres, con cédula 1206924050. Me apasiona jugar fútbol y me considero una persona amable, siempre con ganas de aprender cosas nuevas. Disfruto de los desafíos y busco constantemente mejorar mis habilidades en distintos ámbitos. Además, estoy comprometido en cada proyecto que emprendo, aportando lo mejor de mí.</p>
+            
+            <h3>Información Personal</h3>
+            <table border="1">
+                <tr>
+                    <th>Campo</th>
+                    <th>Detalles</th>
+                </tr>
+                <tr>
+                    <td>Nombre Completo</td>
+                    <td>Jostin Alexander Muñoz Torres</td>
+                </tr>
+                <tr>
+                    <td>Cédula</td>
+                    <td>1206924050</td>
+                </tr>
+                <tr>
+                    <td>Pasatiempos</td>
+                    <td>Fútbol, lectura, tecnología</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades y Competencias</h2>
+            <ul>
+                <li><strong>Trabajo en equipo:</strong> Colaboro eficazmente con otros para alcanzar objetivos comunes.</li>
+                <li><strong>Comunicación efectiva:</strong> Expreso ideas de manera clara y directa.</li>
+                <li><strong>Resolución de problemas:</strong> Analizo y encuentro soluciones prácticas a situaciones complejas.</li>
+                <li><strong>Gestión de proyectos:</strong> Planifico y organizo proyectos para garantizar buenos resultados.</li>
+                <li><strong>Adaptabilidad:</strong> Flexibilidad para adaptarme a cambios y nuevos desafíos.</li>
+            </ul>
+
+            <h3>Habilidades Técnicas</h3>
+            <table border="1">
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Competencia</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Desarrollo de páginas web básicas</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Estilización de interfaces web</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Interactividad en páginas web</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Proyectos</h2>
+            <p>Aquí algunos de los proyectos que he desarrollado:</p>
+            <ul>
+                <li>Proyecto de mejora en la eficiencia del equipo de trabajo.</li>
+                <li>Aplicación web para gestión de tareas.</li>
+                <li>Desarrollo de sitio web para emprendimiento local.</li>
+            </ul>
+
+            <h3>Formulario de Proyectos</h3>
+            <form action="proyecto_enviado.html" method="post">
+                <label for="proyecto_nombre">Nombre del Proyecto:</label>
+                <input type="text" id="proyecto_nombre" name="proyecto_nombre" required><br><br>
+
+                <label for="descripcion">Descripción:</label><br>
+                <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br><br>
+
+                <label for="fecha_inicio">Fecha de inicio:</label>
+                <input type="date" id="fecha_inicio" name="fecha_inicio" required><br><br>
+
+                <input type="submit" value="Enviar Proyecto">
+            </form>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas contactarme, puedes hacerlo a través de:</p>
+            <p><strong>Correo electrónico:</strong> jmunoz050@fafi.utb.edu.ec</p>
+            <p><strong>Teléfono:</strong> 0990093038</p>
+
+            <h3>Formulario de Contacto</h3>
+            <form action="contacto_enviado.html" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar Mensaje">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portafolio de Jostin Alexander Muñoz Torres. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
